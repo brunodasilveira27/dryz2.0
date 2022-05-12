@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto+Condensed:ital,wght@1,700&family=Roboto:wght@100&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Macondo', cursive;
+
+}
+
+:root {
+
+    --background-color: #1C1C1C;
+    --color: #836FFF;
+    --linear: #836FFF40;
+
+}
+
+html, body {
+
+    background-color: var(--background-color);
+    color: var(--color);
+    overflow-x: hidden;
+
+}
+
+.header {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    margin-bottom: 40px;
+
+}
+
+.borda-hinata {
+
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.hinata {
+
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    
+}
+
+.main {
+
+    heighy: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.player {
+
+    width: 90%;
+    background: linear-gradient(to right, var(--linear), #ffffff30);
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin: 5px;
+    
+}
+
+.iplayer {
+
+    width: 50px;
+
+}
+
+.display-none { display: none; }
